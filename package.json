@@ -1,6 +1,6 @@
 {
   "name": "summarizer",
-  "homepage": "http://abdullahzameek.github.io/summarizer",
+  "homepage": "http://abdullahzameek.github.io/text_front",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
