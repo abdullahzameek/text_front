@@ -9,6 +9,8 @@ import Grid from '@material-ui/core/Grid';
 import { Container, Typography } from '@material-ui/core';
 
 
+// fix to functionql comp later
+
 const styles = theme => ({
 
     inputbox: {
