@@ -29,7 +29,7 @@ class TextCard extends Component{
     const { classes } = this.props
     return (
         <Card className={classes.root} variant="outlined">
-        <CardContent onclick={this.clickhere}>
+        <CardContent>
           <Typography variant="h5" component="h2">
             {this.props.summaryText}
           </Typography>
