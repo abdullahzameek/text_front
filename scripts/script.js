@@ -17,6 +17,7 @@ function getSummary() {
     })
     .catch(error => {
         console.log("ERROR in Category loading ", error)
+        monkeys.innerText = "Oops, something went wrong. You sure you entered some text to summarize?";
     })   
   }
 
