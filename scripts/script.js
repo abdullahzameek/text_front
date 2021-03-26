@@ -1,4 +1,6 @@
 function getSummary() {
+    var monkeys = document.getElementById('monkeys');
+    monkeys.innerText = "Hang on, our code monkeys are working really hard right now!"
     var resultElement = document.getElementById('resultingText');
     var source = document.getElementById('payload').value;
     console.log(source)
@@ -11,6 +13,7 @@ function getSummary() {
         console.log(response)
         console.log(response.data)
         resultElement.value = response.data
+        monkeys.innerText = "";
     })
     .catch(error => {
         console.log("ERROR in Category loading ", error)
